@@ -1,0 +1,12 @@
+p {
+    text-align:center;
+    color: blue;
+}
+
+.text {
+    color: orange;
+}
+
+#text {
+    font-family: verdana;
+}
