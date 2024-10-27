@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Light Bulb On/Off</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        img {
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Light Bulb On/Off Control</h2>
+    <img id="bulb" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="Light Bulb">
+    <br><br>
+    <button onclick="turnOn()">Turn On</button>
+    <button onclick="turnOff()">Turn Off</button>
+
+    <script>
+        const bulbImage = document.getElementById("bulb");
+        function turnOn() {
+            bulbImage.src = "https://www.w3schools.com/js/pic_bulbon.gif";
+        }
+        function turnOff() {
+            bulbImage.src = "https://www.w3schools.com/js/pic_bulboff.gif";
+        }
+    </script>
+</body>
+
+</html>
